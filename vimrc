@@ -18,6 +18,9 @@ filetype plugin on
 " Indentation
 filetype indent on
 
+" Enable SuperTab
+packloadall
+
 " Search
 set showmatch
 set hlsearch
@@ -27,3 +30,10 @@ set incsearch
 set history=420
 set wildmenu
 set wildmode=list:longest
+
+" Plugins
+call plug#begin()
+
+Plug 'preservim/nerdtree'
+
+call plug#end()
