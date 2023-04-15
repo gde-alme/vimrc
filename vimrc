@@ -22,6 +22,9 @@ nnoremap <C-t> :belowright term ++rows=16<CR>
 " redo change from undo
 nnoremap r <C-r>
 
+" copy selected text to clipboad ctrl+y
+vnoremap <C-y> "+y
+
 " in visual mode:
 " 	ctrl+r 2x: replace all ocurr of s1 with s2
 " 	s1 can be set with /s1 beforehand
