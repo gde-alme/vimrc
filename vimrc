@@ -16,6 +16,11 @@ filetype on
 filetype plugin on
 filetype indent on
 
+map <c-h> <c-w>h
+map <c-j> <c-w>j
+map <C-k> <C-w>k
+map <c-l> <c-w>l
+
 " keybind ctrl+t to open terminal win
 nnoremap <C-t> :belowright term ++rows=16<CR>
 
